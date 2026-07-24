@@ -301,13 +301,6 @@ if(WITH_ROS_SUPPORT)
   AptInstall(ros-${ROS_DISTRO}-tf2-eigen)
 endif()
 
-AddProject(
-  mc_state_observation
-  GITHUB bastien-muraccioli/mc_state_observation
-  CMAKE_ARGS ${MC_STATE_OBSERVATION_OPTIONS}
-  DEPENDS ${MC_STATE_OBSERVATION_DEPENDS}
-  APT_PACKAGES mc-state-observation ros-${ROS_DISTRO}-mc-state-observation
-)
 #AddProject(
 #  mc_state_observation
 #  # GITHUB jrl-umi3218/mc_state_observation
