@@ -3,6 +3,3 @@ devel/
 install/
 **/.devpod-internal
 .ccache/
-CMakeFiles/
-.idea/
-CMakeCache.txt
