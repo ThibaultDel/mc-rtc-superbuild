@@ -260,7 +260,7 @@ endif()
 AddProject(
   mc_rtc
   GITHUB bastien-muraccioli/mc_rtc
-  GIT_TAG origin/devel
+  GIT_TAG origin/hrp5p
   CMAKE_ARGS -DMC_LOG_UI_PYTHON_EXECUTABLE=${MC_LOG_UI_PYTHON_EXECUTABLE}
              ${MC_RTC_ROS_OPTION} ${MC_RTC_EXTRA_OPTIONS}
   DEPENDS ${mc_rtc_DEPENDS}
